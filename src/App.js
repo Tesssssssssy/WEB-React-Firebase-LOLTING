@@ -21,8 +21,6 @@ function App() {
             <Route path='/' element={<Home />}></Route>
             <Route path='/login' element={!user ? <Login /> : <Navigate replace={true}
             to="/" />}></Route>
-            <Route path='/signup' element={!user ? <Signup /> : <Navigate replace={true}
-            to="/" />}></Route>
             <Route path='/board' element={user? <Board /> : <Navigate replace={true}
             to="/login" />}></Route>
           </Routes>
