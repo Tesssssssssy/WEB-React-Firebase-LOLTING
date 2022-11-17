@@ -12,7 +12,7 @@ export default function Nav() {
     <nav className={styles.nav}>
       <h1 className={styles.title}>LOLTING</h1>
       <ul className={styles.list_nav}>
-      <li><Link to="/">홈</Link></li>
+      <li><Link to="/">Home</Link></li>
         {!user && 
             <>
               <li><Link to="/login">로그인</Link></li>
