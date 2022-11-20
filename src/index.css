@@ -8,3 +8,8 @@ body {
 ul {
   list-style-type: none;
 }
+
+@font-face {
+  font-family: "BMJUA";
+  src: url("./fonts/BMJUA_ttf.ttf");
+}

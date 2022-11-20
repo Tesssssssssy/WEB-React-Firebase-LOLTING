@@ -10,19 +10,19 @@ export default function Nav() {
 
   return (
     <nav className={styles.nav}>
-      <h1 className={styles.title}>LOLTING</h1>
+      <h1 className={styles.title}>롤팅</h1>
       <ul className={styles.list_nav}>
       <li><Link to="/">Home</Link></li>
         {!user && 
             <>
               <li><Link to="/login">로그인</Link></li>
-              <li><Link to="/board">게시판</Link></li>
+              <li><Link to="/board">다운로드</Link></li>
             </>
         }
         {user && 
           <>
             <strong>환영합니다!  {user.displayName}님</strong>
-            <li><Link to="/board">게시판</Link></li>
+            <li><Link to="/board">다운로드</Link></li>
             <li><button type='button' onClick={logout}>로그아웃</button></li>
           </>
         }

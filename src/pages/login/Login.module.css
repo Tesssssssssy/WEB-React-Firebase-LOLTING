@@ -1,6 +1,7 @@
 .login_form {
     max-width: 360px;
     margin: 60px auto;
+    font-family: "BMJUA";
     padding: 20px;
 }
 
@@ -30,8 +31,7 @@
     padding: 6px 12px;
     border-radius: 10px;
     color: #fff;
-    background-color: teal;
-    border: 1px solid teal;
+    background-image: url("/src/imgsrc/backpurple.png");
     font-weight: bold;
     cursor: pointer;
 }
