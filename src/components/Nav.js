@@ -10,7 +10,7 @@ export default function Nav() {
 
   return (
     <nav className={styles.nav}>
-      <h1 className={styles.title}>롤팅</h1>
+        <img className={styles.logo} src="/image/icon.png" alt="lolting_logo" />
       <ul className={styles.list_nav}>
       <li><Link to="/">Home</Link></li>
         {!user && 

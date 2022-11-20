@@ -1,0 +1,65 @@
+.posts {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.image {
+    flex: 2;
+    position: relative;
+}
+
+.lolting_img {
+    width: 400px;
+    max-height: 600px;
+    object-fit: cover;
+    float: left;
+    margin-right: 200px;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    float: left;
+
+}
+
+.download_btn {
+    width: 400px;
+    height: 100px;
+    object-fit: cover;
+    float: left;
+    margin-right: 200px;
+    border-radius: 10px;
+    background-color: #ffd343;
+    cursor: pointer;
+    border: none;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+p {
+    font-size: 35px;
+    font-family: "BMJUA";
+}
+
+.name {
+    font-size: 20px;
+}
+
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}

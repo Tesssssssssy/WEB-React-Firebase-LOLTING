@@ -3,7 +3,6 @@ import Home from './pages/home/Home'
 import Board from "./pages/board/Board"
 import Login from "./pages/login/Login"
 import Nav from "./components/Nav"
-import Signup from "./pages/signup/Signup"
 import { useAuthContext } from "./hooks/useAuthContext"
 
 
