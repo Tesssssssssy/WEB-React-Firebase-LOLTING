@@ -1,4 +1,7 @@
 import styles from "./Home.module.css";
+// import { FirebaseStorage } from "firebase/storage";
+// import { getDownloadURL } from "firebase/storage";
+import { Link } from "react-router-dom"
 
 export default function Home() {
   return (
@@ -30,7 +33,9 @@ export default function Home() {
             </div>
         </div>
         <div className={styles.image}>
-          <button type="button" className={styles.download_btn}>Download LOLTING</button>
+            <Link to="./download/download.html">
+              <button className={styles.download_btn}>Download LOLTING</button>
+            </Link>
             <div className={styles.contents}>
               <p className={styles.download}>
                 &lt;-  롤팅 다운로드 클릭! <br />
